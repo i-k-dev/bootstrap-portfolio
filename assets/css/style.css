@@ -1,5 +1,22 @@
 :root {
+    --white: white;
+    --black: black;
+    --green: rgb(188, 213, 97);
+}
+
+* {
+    margin: 1px;
+    padding: 1px;
+    /* box-sizing: border-box; */
+    background-color: var(--black);
     font-family: 'Space Grotesk', sans-serif;
-    background-color: black;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: var(--black) !important;
+    color: white !important;
+}
+
+body {
+
 }
 
