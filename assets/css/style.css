@@ -33,3 +33,26 @@ h1 {
 }
 
 /* CLASSES */
+.container {
+    max-width: fit-content;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.cardContainer {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.col-sm {
+    width: 540px;
+}
