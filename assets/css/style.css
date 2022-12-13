@@ -20,16 +20,25 @@
 
 } */
 
-h1 {
-    font-size: 30em;
+/* h1 {
+    font-size: 300em;
     text-align: center;;
-}
+} */
 
 
 /* ID  */
 #navBrand {
     font-size: 1.5em !important;
     
+}
+
+#jumboJustify {
+    text-align: justify;
+
+}
+
+#jumboSub {
+    text-align: center;
 }
 
 /* CLASSES */
@@ -47,12 +56,21 @@ h1 {
 
 .card {
     margin: 0 auto;
+    float: none; /* Added */
+    margin-bottom: 10px;
 }
 
-.container {
+/* .container {
     display: flex;
+} */
+
+.h1 {
+    font-size: 1250%;
+    text-align: center;
 }
 
-.col-sm {
-    width: 540px;
+.btn-Center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
