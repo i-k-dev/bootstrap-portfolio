@@ -53,8 +53,8 @@ Critical requirements necessary to develop a portfolio that satisfies a typical 
 
 ## Screenshots
 
-![alt text](./assets/doc/readme-screenshot.png)
 Preview of whole site:
+![alt text](./assets/doc/readme-screenshot.png)
 
 ## Author
 
