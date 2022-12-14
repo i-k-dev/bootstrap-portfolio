@@ -32,13 +32,12 @@
     
 }
 
-#jumboJustify {
-    text-align: justify;
-
-}
-
 #jumboSub {
     text-align: center;
+}
+
+#joke {
+    color: white;
 }
 
 /* CLASSES */
@@ -74,3 +73,15 @@
     align-items: center;
     text-align: center;
 }
+
+/* .jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.jumboCopy {
+    text-align: center;

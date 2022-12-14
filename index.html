@@ -33,6 +33,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -49,15 +52,15 @@
       </div>
     </header>
   -->
-
-  <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4 h1">hello.</h1>
+<!-- Jumbotron section -->
+  <div class="jumbotron jumbotron-fluid jumboCopy">
+      <h1 class="display-4 h1"><strong>hello.</strong></h1>
       <p class="lead" id="jumboSub">Welcome to my portfolio web dev site.</p>
       <br class="my-4">
-      <p id="jumboJustify">Built using Bootstrap CSS—this portfolio page is where I can add more projects to showcase my skills and talents to employers, as the course progresses.
-      With these points in mind: if I don't have enough web applications to showcase at this point, I'll use placeholder images and names.</p><br>
-      <a class="btn btn-primary btn-lg btn-Center" href="#" role="button">Do you like my work?</a>
-  </div>
+      <p>Do you accept some fake cookies?</p><br>
+      <a class="btn btn-primary btn-lg btn-Center" href="#" role="button" data-toggle="modal" data-target="#fakeModal">Nah</a>
+      <a class="btn btn-primary btn-lg btn-Center" href="#" role="button" data-toggle="modal" data-target="#fakeModal">Sure</a>
+  </div> <!--I tried many ways but I can't get the button to center, help?-->
 
 <!-- Cards -->
   <section id="section_projects">
@@ -172,6 +175,30 @@
         </div>
         <!--Card section ends-->
   </section>
+
+  <aside>
+          <!-- Modal -->
+          <div class="modal fade" id="fakeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Another annoying cookie popup.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Ha! Jokes on you - you're getting a cookie either way!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Jeez...</button>
+                  <button type="button" class="btn btn-primary"><a id="joke" href="https://cdn-webimages.wimages.net/053f9d529fe1e1d8eb1990cb379a305603c33d-v5.jpg?v=0">Okay, I guess...</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+  </aside>
 
 
 
