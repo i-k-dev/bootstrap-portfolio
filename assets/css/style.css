@@ -7,23 +7,36 @@
 
 /* UNIVERSAL */
 * {
-    margin: 1px;
-    padding: 1px;
     /* box-sizing: border-box; */
     background-color: var(--black);
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
     color: rgba(0, 47, 167, 1);
+    margin-right: -5px;
 }
+
+        /* margin: 1px;
+        padding: 1px; */
+
 
 /* body {
 
 } */
 
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 /* h1 {
-    font-size: 300em;
+    font-size: 400em;
     text-align: center;;
 } */
+
+h2 {
+    font-size: 400em;
+}
 
 
 /* ID  */
@@ -41,6 +54,39 @@
 }
 
 /* CLASSES */
+
+/* JUMBOTRON section */
+.jumbotronImg {
+    background-image: url("../img/ik-banner-2.png");
+}
+
+.jumboCopy {
+    text-align: center;
+}
+
+.jumbotron {
+    background: none;
+}
+
+/* .jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.imgJumbo {
+        position: absolute;
+        z-index: -2;
+        float: right;
+        max-width: 30%;
+        margin-left: 700px;
+}
+
+
+/* CARD and CONTAINER section */
 .container {
     max-width: fit-content;
 }
@@ -50,7 +96,8 @@
 }
 
 .cardContainer {
-    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(0, 47, 167);;
 }
 
 .card {
@@ -63,9 +110,35 @@
     display: flex;
 } */
 
+
+/* TEXT STYLES section */
 .h1 {
-    font-size: 1250%;
+    font-size: 1850%;
     text-align: center;
+}
+
+.h2 {
+    font-size: 900%;
+    text-align: center;
+}
+
+.h2a {
+    font-size: 700%;
+    text-align: center;
+    color: white;
+}
+
+.h2b {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.padMe {
+    padding: 50px;
+    margin: 50px;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .btn-Center {
@@ -74,14 +147,52 @@
     text-align: center;
 }
 
-/* .jumbotron {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+/* 2/3 About me and SKILL Section */
+.skill {
+    background-color: rgb(0, 47, 167);
+    color: white;
+}
 
-.jumboCopy {
-    text-align: center;
+.skillExpect {
+    justify-content: center;
+}
+
+.uiIcons {
+    color: #fff;
+    font-size: 66px !important;
+    margin-bottom: 25px;
+}
+
+/* 3/3 Contact and Footer section */
+.footer {
+        background-color: white;
+        text-decoration: none;
+}
+
+.imglink {
+    display: flex;
+    width:100%;
+    height:auto;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imglink:hover {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    box-shadow: 0px 0px 10px rgb(0, 47, 167);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+    margin: 5px;
+}
