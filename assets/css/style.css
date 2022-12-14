@@ -78,11 +78,11 @@ h2 {
 } */
 
 .imgJumbo {
-        position: absolute;
+        position: fixed;
         z-index: -2;
-        float: right;
         max-width: 30%;
-        margin-left: 700px;
+        float: left;
+        left: 40px;
 }
 
 
@@ -104,6 +104,10 @@ h2 {
     margin: 0 auto;
     float: none; /* Added */
     margin-bottom: 10px;
+}
+
+.cardImg600 {
+    height: 150px;
 }
 
 /* .container {
